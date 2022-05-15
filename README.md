@@ -23,6 +23,9 @@ Hope you enjoy them!
 ### RNNs for Time Series Prediction (**EN** 📕) 21/22
    - PyTorch, Matplotlib
 
+### VAE model implementation (**EN** 📕) 21/22
+   - PyTorch, Matplotlib
+
 ### Mysterious Kaggle competition (**EN** 📕) 21/22
   - Goal: maximize F1 score on unknown dataset, where noise and transformations have been added to the original variables  
 
