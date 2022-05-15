@@ -30,7 +30,7 @@ Hope you enjoy them!
   - Goal: maximize F1 score on unknown dataset, where noise and transformations have been added to the original variables  
 
 
-## Bachellor's thesis: Time Series Anomaly Detection (**ES** 🏆 💻 📝) 20/21
+## Bachelor's thesis: Time Series Anomaly Detection (**ES** 🏆 💻 📝) 20/21
 - Described best-known methodologies in time series anomaly detection with emphasis on the Matrix Profile, developing the entire mathematical construction behind it
 - Applied these techniques to the KDD 2021 competition using my own novel implementation, obtaining a top 20 ranking (not official)
 - Awarded with Honors (best thesis in the Mathematics and Statistics degree)
