@@ -17,7 +17,7 @@ Hope you enjoy them!
 ## Current work in progress
 
 ### Master's thesis: Attention Networks for Irregularly Sampled Time Series (**EN** 💻 📝) 21/22
-- Work based on this [paper](https://arxiv.org/pdf/2101.10318.pdf)  
+- Work based on this [paper](https://arxiv.org/pdf/2101.10318.pdf) (ICLR 2021)  
 - To be submitted mid-june, defended mid-july
 
 ### RNNs for Time Series Prediction (**EN** 📕) 21/22
