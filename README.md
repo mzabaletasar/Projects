@@ -55,6 +55,15 @@ Hope you enjoy them!
    - PyTorch, Matplotlib 
 
 
+### Kernel Methods
+#### 1. SVMs and Spectral Clustering (**EN** 📕) 21/22
+   - ...
+   - Sklearn, NumPy, Pandas, Matplotlib 
+#### 2. Kernel methods for understanding data (**EN** 📕) 21/22
+   - ...
+   - Sklearn, Scipy, Pandas, Matplotlib 
+
+
 ### Kaggle Competitions
 #### 1. House Prices Kaggle competition (**EN** 🏆 📕) 21/22
   - Developed several ML models with the goal of achieving the best results on the competition
