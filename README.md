@@ -57,10 +57,19 @@ Hope you enjoy them!
 
 ### Kernel Methods
 #### 1. SVMs and Spectral Clustering (**EN** 📕) 21/22
-   - ...
+   - SVM with randomly selected labels
+   - Spectral clustering with one label per cluster
+   - Simulated scenario with scarce labels. Studied impact of scarcity in the results and explored strategy to try to achieve good results
+   - Implemented these models on 0 vs 1 problem and even vs odd problem and commented on final discussion
+   - Extra: Used KMeans instead of Spectral Clustering, discussing for which hyperparameter values they are the closest
+   - Extra: Studied behavior of training SVM with labeled samples used by Spectral Clustering
    - Sklearn, NumPy, Pandas, Matplotlib 
 #### 2. Kernel methods for understanding data (**EN** 📕) 21/22
-   - ...
+   - Evaluated performance of SVM, PCA + SVM, LDA, Kernel PCA + linear SVM, KDA on face recognition task
+   - Discussed results
+   - Studied impact of number of components in the reduced dimension space
+   - Studied performance on noise-contaminated test set
+   - Extra: KDA + SVM, LDA + SVM  
    - Sklearn, Scipy, Pandas, Matplotlib 
 
 
