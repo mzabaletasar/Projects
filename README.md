@@ -22,12 +22,15 @@ Hope you enjoy them!
 
 ### RNNs for Time Series Prediction (**EN** 📕) 21/22
    - PyTorch, Matplotlib
+   - Completed by end of May
 
 ### VAE model implementation (**EN** 📕) 21/22
    - PyTorch, Matplotlib
+   - Completed by end of May
 
 ### Mysterious Kaggle competition (**EN** 📕) 21/22
-  - Goal: maximize F1 score on unknown dataset, where noise and transformations have been added to the original variables  
+  - Goal: maximize F1 score on unknown dataset, where noise and transformations have been added to the original variables
+  - Completed by end of May  
 
 
 ## Bachelor's thesis: Time Series Anomaly Detection (**ES** 🏆 💻 📝) 20/21
