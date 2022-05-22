@@ -20,7 +20,7 @@ Hope you enjoy them!
 - Work based on this [paper](https://arxiv.org/pdf/2101.10318.pdf) (ICLR 2021)  
 - To be submitted mid-june, defended mid-july
 
-### NLP - Classigying documents using Topic Modelling (**EN** 📕) 21/22
+### NLP - Classifying documents using Topic Models (**EN** 📕) 21/22
    - Gensim, Matplotlib
    - Completed by end of May
 
