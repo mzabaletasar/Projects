@@ -20,8 +20,8 @@ Hope you enjoy them!
 - Work based on this [paper](https://arxiv.org/pdf/2101.10318.pdf) (ICLR 2021)  
 - To be submitted mid-june, defended mid-july
 
-### RNNs for Time Series Prediction (**EN** 📕) 21/22
-   - PyTorch, Matplotlib
+### NLP - Classigying documents using Topic Modelling (**EN** 📕) 21/22
+   - Gensim, Matplotlib
    - Completed by end of May
 
 ### VAE model implementation (**EN** 📕) 21/22
