@@ -20,17 +20,6 @@ Hope you enjoy them!
 - Work based on this [paper](https://arxiv.org/pdf/2101.10318.pdf) (ICLR 2021)  
 - To be submitted mid-june, defended mid-july
 
-### NLP - Classifying documents using Topic Models (**EN** 📕) 21/22
-   - Gensim, Matplotlib
-   - Completed by end of May
-
-### VAE model implementation (**EN** 📕) 21/22
-   - PyTorch, Matplotlib
-   - Completed by end of May
-
-### Mysterious Kaggle competition (**EN** 📕) 21/22
-  - Goal: maximize F1 score on unknown dataset, where noise and transformations have been added to the original variables
-  - Completed by end of May  
 
 
 ## Bachelor's thesis: Time Series Anomaly Detection (**ES** 🏆 💻 📝) 20/21
@@ -42,13 +31,19 @@ Hope you enjoy them!
 ## Machine Learning
 
 ### Deep Learning
-#### 1. Image classification with MLPs (**EN** 📕) 21/22
+#### 1. NLP - Classifying documents using Topic Models (**EN** 📕) 21/22
+   - 
+   - Gensim, Matplotlib
+### 2. VAE model implementation (**EN** 📕) 21/22
+   - 
+   - PyTorch, Matplotlib
+#### 3. Image classification with MLPs (**EN** 📕) 21/22
    - Implemented image classifier using MLPs for the MNIST & Fashion-MNIST datasets
    - Created class with methods for forward pass, trainloop and evaluation 
    - Visualized overfitting based on train vs validation accuracy across epochs
    - Implemented early-stopping and dropout and evaluated best performance
    - PyTorch, Matplotlib 
-#### 2. CNNs for CIFAR 10 (**EN** 📕) 21/22
+#### 4. CNNs for CIFAR 10 (**EN** 📕) 21/22
    - Implemented LeNet 5 network and evaluated performance in train & validation
    - Regularized network to prevent overfitting (early stopping + dropout)
    - Included batch normalization to accelerate training and compared performances
@@ -74,14 +69,21 @@ Hope you enjoy them!
 
 
 ### Kaggle Competitions
-#### 1. House Prices Kaggle competition (**EN** 🏆 📕) 21/22
+#### 1. Mysterious Kaggle competition (**EN** 🏆 📕) 21/22
+  - Goal: maximize F1 score on unknown dataset, where noise and transformations have been added to the original variables
+  - Developed strategies on model selection & tuning, as well as preprocessing pipelines
+  - **Model selection & tuning:** best models to include in the ensemble, best number of folds and test size (cross-validation)
+  - **Preprocessing pipelines:** oversampling, misssing data imputer, scaler, feature selection, dimensionality reduction
+  - Winner model: Ensemble of complex estimators, such as XGBoost, RF, Bagging, ... 
+  - Achieved **second best** competition ranking in the class (F1 score of 0.8814)
+#### 2. House Prices Kaggle competition (**EN** 🏆 📕) 21/22
   - Developed several ML models with the goal of achieving the best results on the competition
   - KNN, Decision Tree, Random Forest (RF), Extra Trees (ET), Hist Gradient Boosting (HGB)
   - Default hyperparameters, grid-search, random-search, skopt, optuna, pruning
   - Compared results and drawed conclusions (speed: ET vs RF, HPT evaluation, time vs results tradeoff, additional conclusions, best model)
   - CASH implementation: ET + HGB
   - Extra: Halving hyperparameter optimization method, XGBoost
-  - Achieved best competition ranking in the class
+  - Achieved **best** competition ranking in the class
 
    
      
