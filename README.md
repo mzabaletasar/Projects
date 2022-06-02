@@ -38,8 +38,11 @@ Hope you enjoy them!
    - Trained a logistic regression classifier using the LDA representation. Showed confussion matrix in test and determined most problematic categories. Repeated this process for a k-NN classifier and discussed results
    - Compared and discussed results with a classifier that uses the **TF-IDF** representation
    - Gensim, Matplotlib
-### 2. VAE model implementation (**EN** 📕) 21/22
-   - 
+#### 2. VAE model implementation (**EN** 📕) 21/22
+   - Implemented code to train a VAE for a dataset of images of celebrities (CelebA)
+   - Class to implement the encoder mean and variance, decoder mean and training method
+   - Function to evaluate log-likelihood of a Gaussian distribution (used to construct loss function)
+   - Validated a pre-trained VAE and trained VAE from scratch
    - PyTorch, Matplotlib
 #### 3. Image classification with MLPs (**EN** 📕) 21/22
    - Implemented image classifier using MLPs for the MNIST & Fashion-MNIST datasets
