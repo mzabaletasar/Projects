@@ -20,35 +20,41 @@ Hope you enjoy them!
 - Work based on this [paper](https://arxiv.org/pdf/2101.10318.pdf) (ICLR 2021)  
 - To be submitted mid-june, defended mid-july
 
-### RNNs for Time Series Prediction (**EN** 📕) 21/22
-   - PyTorch, Matplotlib
-   - Completed by end of May
-
-### VAE model implementation (**EN** 📕) 21/22
-   - PyTorch, Matplotlib
-   - Completed by end of May
-
-### Mysterious Kaggle competition (**EN** 📕) 21/22
-  - Goal: maximize F1 score on unknown dataset, where noise and transformations have been added to the original variables
-  - Completed by end of May  
 
 
 ## Bachelor's thesis: Time Series Anomaly Detection (**ES** 🏆 💻 📝) 20/21
-- Described best-known methodologies in time series anomaly detection with emphasis on the Matrix Profile, developing the entire mathematical construction behind it
-- Applied these techniques to the KDD 2021 competition using my own novel implementation, obtaining a top 20 ranking (not official)
-- Awarded with Honors (best thesis in the Mathematics and Statistics degree)
+- Described best-known methodologies in time series anomaly detection with emphasis on the **Matrix Profile**, developing the entire mathematical construction behind it
+- Applied these techniques to the **KDD 2021** competition using my own novel implementation, obtaining a top 20 ranking (not official)
+- Awarded with **Honors** (best thesis in the Mathematics and Statistics degree)
 
 
 ## Machine Learning
 
 ### Deep Learning
-#### 1. Image classification with MLPs (**EN** 📕) 21/22
+#### 1. NLP - Classifying documents using Topic Models (**EN** 📕) 21/22
+   - **20Newsgroup datasets** (18846 documents) classified in 20 groups, which were merged into 6 categories
+   - Defined **dictionary** and **filtered** too-frequent tokens. Constructed **BoW** representation of the model
+   - Built a **Latent Dirichlet Allocation** model on training set. Validated number of topics by studying consistency of topics in the validation set. Interpreted selected number of topics
+   - Trained a logistic regression classifier using the LDA representation. Showed confussion matrix in test and determined most problematic categories. Repeated this process for a k-NN classifier and discussed results
+   - Compared and discussed results with a classifier that uses the **TF-IDF** representation
+   - Gensim, Matplotlib
+#### 2. VAE model implementation (**EN** 📕) 21/22
+   - Implemented code to train a VAE for a dataset of images of celebrities (CelebA)
+   - Class to implement the encoder mean and variance, decoder mean and training method
+   - Function to evaluate log-likelihood of a Gaussian distribution (used to construct loss function)
+   - Validated a pre-trained VAE and trained VAE from scratch
+   - PyTorch, Matplotlib
+#### 3. Resolution enhancement of traffic surveillance images with SRGANs (**EN** 📝) 21/22
+   - Composed a theoretical work describing a real-world problem that can be solved using signal processing and deep learning
+   - Elaborated on the model description and system's implementation 
+   - Format: conference paper
+#### 4. Image classification with MLPs (**EN** 📕) 21/22
    - Implemented image classifier using MLPs for the MNIST & Fashion-MNIST datasets
    - Created class with methods for forward pass, trainloop and evaluation 
    - Visualized overfitting based on train vs validation accuracy across epochs
    - Implemented early-stopping and dropout and evaluated best performance
    - PyTorch, Matplotlib 
-#### 2. CNNs for CIFAR 10 (**EN** 📕) 21/22
+#### 5. CNNs for CIFAR 10 (**EN** 📕) 21/22
    - Implemented LeNet 5 network and evaluated performance in train & validation
    - Regularized network to prevent overfitting (early stopping + dropout)
    - Included batch normalization to accelerate training and compared performances
@@ -74,20 +80,35 @@ Hope you enjoy them!
 
 
 ### Kaggle Competitions
-#### 1. House Prices Kaggle competition (**EN** 🏆 📕) 21/22
+#### 1. Mysterious Kaggle competition (**EN** 🏆 📝) 21/22
+  - Goal: maximize F1 score on unknown dataset, where noise and transformations have been added to the original variables
+  - Developed strategies on model selection & tuning, as well as preprocessing pipelines
+  - **Model selection & tuning:** best models to include in the ensemble, best number of folds and test size (cross-validation)
+  - **Preprocessing pipelines:** oversampling, misssing data imputer, scaler, feature selection, dimensionality reduction
+  - Winner model: Ensemble of complex estimators, such as XGBoost, RF, Bagging, ... 
+  - Achieved **second best** competition ranking in the class (F1 score of 0.8814)
+#### 2. House Prices Kaggle competition (**EN** 🏆 📕) 21/22
   - Developed several ML models with the goal of achieving the best results on the competition
   - KNN, Decision Tree, Random Forest (RF), Extra Trees (ET), Hist Gradient Boosting (HGB)
   - Default hyperparameters, grid-search, random-search, skopt, optuna, pruning
   - Compared results and drawed conclusions (speed: ET vs RF, HPT evaluation, time vs results tradeoff, additional conclusions, best model)
   - CASH implementation: ET + HGB
   - Extra: Halving hyperparameter optimization method, XGBoost
-  - Achieved best competition ranking in the class
+  - Achieved **best** competition ranking in the class
 
    
      
 <br />
-     
-### 1. Scheduling optimization of hospital's inventory to tackle the COVID-19 crisis (**EN** 📕) 21/22
+
+### 1. System for human activity detection using smartphone sensor data (**EN** 📕) 21/22
+  - Implemented several methodologies to achieve the best performance on 3 different sequences of test data, and the overall sequence
+  - Training data consisted of 8 sequences with 6 variables, each sequence representing a different person, and each variable a signal (x,y,z axes for accelerometer and gyroscope)
+  - Test data consisted of 3 sequences of similar dimensions
+  - **Part I - Original variables:** models without an id column, models with an id column, one model per sequence
+  - **Part II - MFCC variables:** GMM, classifiers, best combination of features from which to construct the MFCC
+  - Best model achieved a 0.771 overall accuracy, and 0.712, 0.817, 0.852 on the respective test sequences
+  - Sklearn, Librosa
+### 2. Scheduling optimization of hospital's inventory to tackle the COVID-19 crisis (**EN** 📕) 21/22
   - Formulated the problem mathematically as a linear optimization model
   - Implemented model in **Pyomo** and solved for a set of generated data
   - Computed and interpreted sensitivities
@@ -95,7 +116,7 @@ Hope you enjoy them!
   - Implemented relaxed problem. Compared solutions and commented on them
   - Commented on impact of size of the problem and time required to solve it, as well as impact of changing one of the parameters in the model
   - Included an **interactive version** of the data generation and model development
-### 2. Startup - Finding your Career (**ES** 🏆 💻 📝) 20/21
+### 3. Startup - Finding your Career (**ES** 🏆 💻 📝) 20/21
   - Planning and development of a startup aimed at predicting the ideal career for high school students using AI algorithms based on the Big Five personality traits (OCEAN), trained with 132 real responses from university students
   - Developed a model of the complete system, in addition to different aspects of the startup such as implementability, business case, social and economic impact, future developments...
   - Project preselected at the Data Science Iberian Awards
