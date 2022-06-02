@@ -18,7 +18,7 @@ Hope you enjoy them!
 
 ### Master's thesis: Attention Networks for Irregularly Sampled Time Series (**EN** 💻 📝) 21/22
 - Work based on this [paper](https://arxiv.org/pdf/2101.10318.pdf) (ICLR 2021)  
-- To be submitted mid-june, defended mid-july
+- To be submitted mid-June, defended mid-July
 
 
 
@@ -40,43 +40,25 @@ Hope you enjoy them!
    - Gensim, Matplotlib
 #### 2. VAE model implementation (**EN** 📕) 21/22
    - Implemented code to train a VAE for a dataset of images of celebrities (CelebA)
-   - Class to implement the encoder mean and variance, decoder mean and training method
+   - Class to implement the **encoder** mean and variance, **decoder** mean and training method
    - Function to evaluate log-likelihood of a Gaussian distribution (used to construct loss function)
    - Validated a pre-trained VAE and trained VAE from scratch
-   - PyTorch, Matplotlib
+   - **PyTorch**, Matplotlib
 #### 3. Resolution enhancement of traffic surveillance images with SRGANs (**EN** 📝) 21/22
    - Composed a theoretical work describing a real-world problem that can be solved using signal processing and deep learning
-   - Elaborated on the model description and system's implementation 
+   - Elaborated on the **model description** and **system's implementation** 
    - Format: conference paper
 #### 4. Image classification with MLPs (**EN** 📕) 21/22
    - Implemented image classifier using MLPs for the MNIST & Fashion-MNIST datasets
    - Created class with methods for forward pass, trainloop and evaluation 
    - Visualized overfitting based on train vs validation accuracy across epochs
    - Implemented early-stopping and dropout and evaluated best performance
-   - PyTorch, Matplotlib 
+   - **PyTorch**, Matplotlib 
 #### 5. CNNs for CIFAR 10 (**EN** 📕) 21/22
-   - Implemented LeNet 5 network and evaluated performance in train & validation
+   - Implemented **LeNet 5** network and evaluated performance in train & validation
    - Regularized network to prevent overfitting (early stopping + dropout)
    - Included batch normalization to accelerate training and compared performances
-   - PyTorch, Matplotlib 
-
-
-### Kernel Methods
-#### 1. SVMs and Spectral Clustering (**EN** 📕) 21/22
-   - SVM with randomly selected labels
-   - Spectral clustering with one label per cluster
-   - Simulated scenario with scarce labels. Studied impact of scarcity in the results and explored strategy to try to achieve good results
-   - Implemented these models on 0 vs 1 problem and even vs odd problem and commented on final discussion
-   - Extra: Used KMeans instead of Spectral Clustering, discussing for which hyperparameter values they are the closest
-   - Extra: Studied behavior of training SVM with labeled samples used by Spectral Clustering
-   - Sklearn, NumPy, Pandas, Matplotlib 
-#### 2. Kernel methods for understanding data (**EN** 📕) 21/22
-   - Evaluated performance of SVM, PCA + SVM, LDA, Kernel PCA + linear SVM, KDA on face recognition task
-   - Discussed results
-   - Studied impact of number of components in the reduced dimension space
-   - Studied performance on noise-contaminated test set
-   - Extra: KDA + SVM, LDA + SVM  
-   - Sklearn, Scipy, Pandas, Matplotlib 
+   - **PyTorch**, Matplotlib 
 
 
 ### Kaggle Competitions
@@ -96,7 +78,22 @@ Hope you enjoy them!
   - Extra: Halving hyperparameter optimization method, XGBoost
   - Achieved **best** competition ranking in the class
 
-   
+### Kernel Methods
+#### 1. SVMs and Spectral Clustering (**EN** 📕) 21/22
+   - SVM with randomly selected labels
+   - Spectral clustering with one label per cluster
+   - Simulated scenario with scarce labels. Studied impact of scarcity in the results and explored strategy to try to achieve good results
+   - Implemented these models on 0 vs 1 problem and even vs odd problem and commented on final discussion
+   - Extra: Used KMeans instead of Spectral Clustering, discussing for which hyperparameter values they are the closest
+   - Extra: Studied behavior of training SVM with labeled samples used by Spectral Clustering
+   - Sklearn, NumPy, Pandas, Matplotlib 
+#### 2. Kernel methods for understanding data (**EN** 📕) 21/22
+   - Evaluated performance of SVM, PCA + SVM, LDA, Kernel PCA + linear SVM, KDA on face recognition task
+   - Discussed results
+   - Studied impact of number of components in the reduced dimension space
+   - Studied performance on noise-contaminated test set
+   - Extra: KDA + SVM, LDA + SVM  
+   - Sklearn, Scipy, Pandas, Matplotlib 
      
 <br />
 
@@ -117,9 +114,9 @@ Hope you enjoy them!
   - Commented on impact of size of the problem and time required to solve it, as well as impact of changing one of the parameters in the model
   - Included an **interactive version** of the data generation and model development
 ### 3. Startup - Finding your Career (**ES** 🏆 💻 📝) 20/21
-  - Planning and development of a startup aimed at predicting the ideal career for high school students using AI algorithms based on the Big Five personality traits (OCEAN), trained with 132 real responses from university students
+  - Planning and development of a startup aimed at predicting the ideal career for high school students using AI algorithms based on the Big Five personality traits (OCEAN), trained with **132 real responses** from university students
   - Developed a model of the complete system, in addition to different aspects of the startup such as implementability, business case, social and economic impact, future developments...
-  - Project preselected at the Data Science Iberian Awards
+  - Project preselected at the **Data Science Iberian Awards**
   - Language used: R
 
 
