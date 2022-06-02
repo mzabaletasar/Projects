@@ -80,7 +80,7 @@ Hope you enjoy them!
 
 
 ### Kaggle Competitions
-#### 1. Mysterious Kaggle competition (**EN** 🏆 📕) 21/22
+#### 1. Mysterious Kaggle competition (**EN** 🏆 📝) 21/22
   - Goal: maximize F1 score on unknown dataset, where noise and transformations have been added to the original variables
   - Developed strategies on model selection & tuning, as well as preprocessing pipelines
   - **Model selection & tuning:** best models to include in the ensemble, best number of folds and test size (cross-validation)
