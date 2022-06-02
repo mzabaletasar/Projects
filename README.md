@@ -104,8 +104,8 @@ Hope you enjoy them!
   - Implemented several methodologies to achieve the best performance on 3 different sequences of test data, and the overall sequence
   - Training data consisted of 8 sequences with 6 variables, each sequence representing a different person, and each variable a signal (x,y,z axes for accelerometer and gyroscope)
   - Test data consisted of 3 sequences of similar dimensions
-  - **Part I: Original variables** - models without an id column, models with an id column, one model per sequence
-  - **Part II: MFCC variables** - GMM, classifiers, best combination of features from which to construct the MFCC
+  - **Part I - Original variables:** models without an id column, models with an id column, one model per sequence
+  - **Part II - MFCC variables:** GMM, classifiers, best combination of features from which to construct the MFCC
   - Best model achieved a 0.771 overall accuracy, and 0.712, 0.817, 0.852 on the respective test sequences
   - Sklearn, Librosa
 ### 2. Scheduling optimization of hospital's inventory to tackle the COVID-19 crisis (**EN** 📕) 21/22
