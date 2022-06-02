@@ -33,7 +33,7 @@ Hope you enjoy them!
 ### Deep Learning
 #### 1. NLP - Classifying documents using Topic Models (**EN** 📕) 21/22
    - **20Newsgroup datasets** (18846 documents) classified in 20 groups, which were merged into 6 categories
-   - Defined **dictionary** and **filtered** too-frequent tokens. Constructed BoW representation of the model
+   - Defined **dictionary** and **filtered** too-frequent tokens. Constructed **BoW** representation of the model
    - Built a **Latent Dirichlet Allocation** model on training set. Validated number of topics by studying consistency of topics in the validation set. Interpreted selected number of topics
    - Trained a logistic regression classifier using the LDA representation. Showed confussion matrix in test and determined most problematic categories. Repeated this process for a k-NN classifier and discussed results
    - Compared and discussed results with a classifier that uses the **TF-IDF** representation
