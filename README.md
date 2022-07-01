@@ -16,8 +16,10 @@ Hope you enjoy them!
 
 
 ## Master's thesis: Attention Networks for Irregularly Sampled Time Series (**EN** 💻 📝) 21/22
-- Work based on this [paper](https://arxiv.org/pdf/2101.10318.pdf) (ICLR 2021)  
-- To be submitted mid-June, defended mid-July
+- Work based on this [paper](https://arxiv.org/pdf/2101.10318.pdf) (ICLR 2021) 
+- Described necessary concepts to fully understand the methodology: **Attention Networks, Transformer, Variational Autoencoders**
+- Explained  proposed architecture and conducted several experiments proving the flexibility and
+potential of the model 
 
 ## Bachelor's thesis: Time Series Anomaly Detection (**ES** 🏆 💻 📝) 20/21
 - Described best-known methodologies in time series anomaly detection with emphasis on the **Matrix Profile**, developing the entire mathematical construction behind it
