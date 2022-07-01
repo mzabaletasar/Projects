@@ -14,13 +14,13 @@ Finally, **ES** denotes that the project is in Spanish, while **EN** means it is
 
 Hope you enjoy them!
 
-## Current work in progress
+### Current work in progress
+<br />
 
-### Master's thesis: Attention Networks for Irregularly Sampled Time Series (**EN** 💻 📝) 21/22
+
+## Master's thesis: Attention Networks for Irregularly Sampled Time Series (**EN** 💻 📝) 21/22
 - Work based on this [paper](https://arxiv.org/pdf/2101.10318.pdf) (ICLR 2021)  
 - To be submitted mid-June, defended mid-July
-
-
 
 ## Bachelor's thesis: Time Series Anomaly Detection (**ES** 🏆 💻 📝) 20/21
 - Described best-known methodologies in time series anomaly detection with emphasis on the **Matrix Profile**, developing the entire mathematical construction behind it
