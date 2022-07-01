@@ -14,9 +14,6 @@ Finally, **ES** denotes that the project is in Spanish, while **EN** means it is
 
 Hope you enjoy them!
 
-### Current work in progress
-<br />
-
 
 ## Master's thesis: Attention Networks for Irregularly Sampled Time Series (**EN** 💻 📝) 21/22
 - Work based on this [paper](https://arxiv.org/pdf/2101.10318.pdf) (ICLR 2021)  
